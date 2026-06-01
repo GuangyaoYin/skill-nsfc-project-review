@@ -10,12 +10,14 @@
 
 Add applicant unit and representative publications to the batch ranking and per-proposal quality judgment.
 
+Only evaluate papers authored by the applicant. Exclude papers that belong only to collaborators, students, mentors, team members, or the applicant's institution unless the applicant is explicitly an author.
+
 Priority rule:
 
 1. Journal/publication quality has greater weight than institutional ranking.
 2. Higher impact factor, stronger journal tier, and closer relevance to the proposal topic should improve the quality judgment, especially when the applicant is first author, corresponding author, or has a clearly important contribution.
 3. Higher-ranked universities or stronger research institutes improve the judgment of platform support and feasibility, but should not outweigh a weak or unrelated publication record.
-4. When exact impact factors or institution rankings are not in the proposal, verify current values from authoritative sources before using exact numbers. If verification is not possible, use qualitative labels and state the uncertainty.
+4. For each applicant-authored representative paper used in the evaluation, search online for the journal's current or most recent available impact factor. Prefer official Journal Citation Reports/Clarivate data when accessible; otherwise use reliable journal or publisher pages and label the source/year. If verification is not possible, write "影响因子未核验" and do not infer a number.
 
 Use publication evidence mainly in the third review item, while avoiding a purely metric-driven assessment. Tie publications back to whether the applicant can complete the proposed scientific work.
 
@@ -57,7 +59,7 @@ Feasibility judgment:
 
 Institution and publication judgment:
 
-"申请人所在单位在……方向具有一定平台和学科支撑，申请人已在……等期刊发表与本项目相关的代表性成果，说明其在……方面具备较好的研究积累。若从横向比较看，相关成果的期刊层次、作者贡献和与本项目的贴合程度，是判断其研究基础的重要依据；单位平台可作为可行性支撑，但不应替代对代表性论文质量和相关性的判断。"
+"申请人所在单位在……方向具有一定平台和学科支撑。申请人本人已在……等期刊发表与本项目相关的代表性成果，其中……期刊影响因子为……（……年/来源），申请人在论文中的作者角色为……，说明其在……方面具备较好的研究积累。若从横向比较看，应优先依据申请人本人论文的期刊影响因子、作者贡献和与本项目的贴合程度判断研究基础；单位平台可作为可行性支撑，但不应替代对申请人本人代表性论文质量和相关性的判断。"
 
 Non-funding judgment:
 
