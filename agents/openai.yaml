@@ -1,0 +1,4 @@
+interface:
+  display_name: "基金委项目评审"
+  short_description: "批量读取基金申请书 PDF，按指定分布生成通讯评审意见。"
+  default_prompt: "请使用本技能批量评审这些基金申请书 PDF，先询问打开口令和评价分布规则，再输出每本项目的等级和三项长评。"
