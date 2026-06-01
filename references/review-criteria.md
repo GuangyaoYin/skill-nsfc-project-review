@@ -6,6 +6,19 @@
 2. 科学问题的创新性与预期成果的科学价值：判断新意来自科学假说、机制认识、数据约束、方法体系、研究对象还是交叉视角，并判断预期成果是否能形成学术增量。
 3. 研究基础与可行性，以及完善建议：判断申请人的前期积累、关键数据/样品/平台、技术路线、风险控制和替代方案是否支撑项目目标。
 
+## Applicant Institution and Publications
+
+Add applicant unit and representative publications to the batch ranking and per-proposal quality judgment.
+
+Priority rule:
+
+1. Journal/publication quality has greater weight than institutional ranking.
+2. Higher impact factor, stronger journal tier, and closer relevance to the proposal topic should improve the quality judgment, especially when the applicant is first author, corresponding author, or has a clearly important contribution.
+3. Higher-ranked universities or stronger research institutes improve the judgment of platform support and feasibility, but should not outweigh a weak or unrelated publication record.
+4. When exact impact factors or institution rankings are not in the proposal, verify current values from authoritative sources before using exact numbers. If verification is not possible, use qualitative labels and state the uncertainty.
+
+Use publication evidence mainly in the third review item, while avoiding a purely metric-driven assessment. Tie publications back to whether the applicant can complete the proposed scientific work.
+
 ## Grade Criteria
 
 ### A / 优 / 优先资助
@@ -41,6 +54,10 @@ Innovation judgment:
 Feasibility judgment:
 
 "申请人在……方面已有一定研究积累，前期工作为本项目实施提供了基础。研究方案总体较完整，但……环节仍存在不确定性，建议进一步明确关键数据来源、参数约束、验证方案和风险替代路径。"
+
+Institution and publication judgment:
+
+"申请人所在单位在……方向具有一定平台和学科支撑，申请人已在……等期刊发表与本项目相关的代表性成果，说明其在……方面具备较好的研究积累。若从横向比较看，相关成果的期刊层次、作者贡献和与本项目的贴合程度，是判断其研究基础的重要依据；单位平台可作为可行性支撑，但不应替代对代表性论文质量和相关性的判断。"
 
 Non-funding judgment:
 
