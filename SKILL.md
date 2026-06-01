@@ -46,7 +46,7 @@ Extract or identify at least these fields when available:
 - research plan and technical route
 - applicant/team research foundation
 - applicant institution and collaborators' institutions
-- representative publications, journals, years, author order/corresponding-author role, and available impact-factor or journal-tier clues
+- applicant-authored representative publications only, including journals, years, author order/corresponding-author role, and verified impact factors
 - feasibility, risks, and expected outcomes
 
 If extraction fails, report the failed file and ask the user to confirm the password or provide a readable copy. Do not fabricate proposal details to fill gaps.
@@ -62,7 +62,7 @@ If extraction fails, report the failed file and ask the user to confirm the pass
    - scientific value of expected outcomes
    - match between objectives, research contents, methods, and validation
    - applicant's prior foundation and team/platform support
-   - applicant institution ranking/reputation and representative publication record
+   - applicant institution ranking/reputation and applicant-authored publication record with verified journal impact factors
    - feasibility, key risks, and alternative plans
 4. Compare all proposals horizontally before assigning final grades. The final grade distribution must follow the user's batch rule unless there is a clearly stated reason to deviate.
 5. Generate a batch summary table and a full review for each proposal.
@@ -71,6 +71,8 @@ If extraction fails, report the failed file and ask the user to confirm the pass
 
 Add applicant unit and publication record as a required quality-assessment dimension. Use this dimension to judge whether the applicant has the research environment and publication evidence needed to support the proposed work.
 
+Only count publications that the applicant personally authored. Do not count papers only authored by collaborators, team members, mentors, students, or the host institution unless the applicant is explicitly listed as an author in the proposal or in verified online records.
+
 Use this priority rule:
 
 1. Publication and journal quality has higher weight than institution.
@@ -78,7 +80,7 @@ Use this priority rule:
 3. Institution quality is secondary but still relevant. A higher-ranked or stronger research university/institute improves the feasibility and resource-confidence judgment, especially when platform, team, and disciplinary support are important.
 4. Do not let institutional prestige override weak or unrelated publication evidence. A strong publication record from a less prestigious unit can rank above a weak publication record from a prestigious unit.
 
-If the proposal lists exact publications and journal information, use those proposal-provided facts first. If current impact factors, journal rankings, or university rankings are needed and not provided in the proposal, verify them from current authoritative sources before relying on exact values; otherwise use cautious qualitative wording such as "高水平期刊", "领域主流期刊", or "相关性较强的代表性成果". Do not invent impact factors, rankings, or paper details.
+For every applicant-authored representative paper used in the evaluation, search the web for the journal's current or most recent available impact factor and record the source or year of the metric. Prefer official Journal Citation Reports/Clarivate information when accessible; otherwise use reliable journal or publisher pages and clearly label the source. If the impact factor cannot be verified, write "影响因子未核验" rather than guessing. Do not invent impact factors, school rankings, paper details, or author roles.
 
 ## Grade Mapping
 
@@ -111,7 +113,7 @@ Then output each proposal in this exact structure:
 申请人：
 作者单位：
 代表性文章列表：
-1. 作者，题名，期刊，年份，作者角色/相关性/期刊层次（如申请书可识别）
+1. 作者，题名，期刊，年份，申请人作者角色，影响因子（年份/来源），与本项目相关性
 2. ……
 熟悉程度：A 熟悉 / B 较熟悉 / C 不熟悉
 综合评价：A 优 / B 良 / C 中 / D 差
@@ -144,6 +146,6 @@ Each of the three numbered review comments must be long-form Chinese prose, pref
   - item 1 focuses on national/economic/social needs and the basic scientific question behind them
   - item 2 focuses on innovation and scientific value
   - item 3 focuses on foundation, institution, publication record, feasibility, risks, and improvement suggestions
-- Include the applicant's institution and representative publication list before the three numbered comments. In item 3, explicitly discuss how the applicant's institution and publication record affect the feasibility and quality judgment.
+- Include the applicant's institution and applicant-authored representative publication list before the three numbered comments. The publication list must include verified journal impact factors when available. In item 3, explicitly discuss how the applicant's institution, applicant-authored papers, author role, verified impact factors, and topical relevance affect the feasibility and quality judgment.
 - Do not reveal sensitive cross-proposal ranking language inside comments intended for the NSFC system unless the user explicitly asks for it.
 - If the proposal text is ambiguous or missing, state the uncertainty and avoid inventing specifics.
